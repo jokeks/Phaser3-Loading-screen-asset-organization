@@ -1,0 +1,25 @@
+{
+    "image": {
+        "image-key": "assets/main-key.jpg"
+    },
+    "svg": {
+        "svg-key": "assets/svg-key.svg"
+    },
+    "audio": {
+        "audio-key" : {
+            "ogg" : "assets/audio-key.ogg",
+            "opus" : "assets/audio-key.opus",
+            "webm" : "assets/audio-key.webm"
+        }
+    },
+    "atlas": {
+        "atlas-key": ["assets/atlas-key.images.png", "assets/atlas-key.info.json"]
+    },
+
+    "spritesheet": {
+        "sheet-key" : ["assets/sheet-key.png", { "frameWidth": 32, "frameHeight": 48 }]
+    },
+    "xml": {
+        "xml-key": "/assets/xml-key.xml"
+    }
+}
