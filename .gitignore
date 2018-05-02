@@ -12,3 +12,6 @@ node_modules/
 # Build
 build/
 /npm-debug.log
+
+#VS Code
+.vs
