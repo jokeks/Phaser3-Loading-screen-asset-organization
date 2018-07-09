@@ -92,22 +92,22 @@ export default class PreloadScene extends Phaser.Scene
 
                     // do not add mp3 unless, you bought a license ;) 
                     // opus, webm and ogg are way better than mp3
-                    if (value.hasOwnPorperty('opus') && this.sys.game.device.audio.opus)
+                    if (value.hasOwnProperty('opus') && this.sys.game.device.audio.opus)
                     {
                         this.load[group](key, value['opus']);
 
                     }
-                    else if (value.hasOwnPorperty('webm') && this.sys.game.device.audio.webm)
+                    else if (value.hasOwnProperty('webm') && this.sys.game.device.audio.webm)
                     {
                         this.load[group](key, value['webm']);
 
                     }
-                    else if (value.hasOwnPorperty('ogg') && this.sys.game.device.audio.ogg)
+                    else if (value.hasOwnProperty('ogg') && this.sys.game.device.audio.ogg)
                     {
                         this.load[group](key, value['ogg']);
 
                     }
-                    else if (value.hasOwnPorperty('wav') && this.sys.game.device.audio.wav)
+                    else if (value.hasOwnProperty('wav') && this.sys.game.device.audio.wav)
                     {
                         this.load[group](key, value['wav']);
                     }
